@@ -70,6 +70,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h2>{account}</h2>
+        <br/>
         <h2>{number}</h2>
         <button onClick={retrieve}>Retrieve</button>
         <br/>
